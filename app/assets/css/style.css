@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto");
 .clear:before, .clear:after {
   content: ' ';
   display: table; }
@@ -391,6 +392,15 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+.topSoc {
+  outline: solid 1px yellow; }
+
+.topLogo {
+  outline: solid 1px red; }
+
+.topNav {
+  outline: solid 1px blue; }
+
 .logo {
   margin: -58px 0 0 -100px;
   position: absolute;
@@ -399,6 +409,15 @@ textarea {
 
 .nav ul {
   list-style: none; }
+
+.whyDM {
+  background-color: #000000; }
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
 
 @font-face {
   font-family: 'Font-Name';
