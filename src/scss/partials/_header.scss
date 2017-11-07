@@ -1,16 +1,48 @@
-.topSoc{
-  outline: solid 1px yellow;
+header{
+  background-color: #0CA38D;
 }
+
 .topLogo{
-  outline: solid 1px red;
+  /*outline: solid 1px red;*/
+  /*padding: 1em;*/
+  padding-top:15px;
+  background-color: #0CA38D;
+  img{
+    padding-left: 8px;
+  }
 }
 .topNav{
   outline: solid 1px blue;
-}
-.logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
+    background-color: #0CA38D;
 
+    a{
+      color: #eee;
+      font-family: 'Caudex' , serif;
+      padding-top: 0px;
+    }
+    a:hover{
+
+      color: #26C3D7;
+    }
+}
+.topSoc{
+  padding-top: 11px;
+  padding-right: 19px;
+  color:#26C3D7;
+  a{
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  a:hover{
+    color: #26C3D7;
+    background-color: #0CA38D;
+  }
+}
+
+.splash {
+  width: 100%;
+  img {
+  width: 100%;
+  height: auto;
   }
 }

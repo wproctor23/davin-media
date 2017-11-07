@@ -1,3 +1,47 @@
-.footer {
+.botLogo{
+  outline: solid 1px red;
+  background-color: #0CA38D;
+  padding-top: 30px;
+  padding-left: 30px;
+  img{
+    height:50px;
+    width: auto;
+    padding-left: 10px;
 
+  }
+}
+#lastLink{
+  padding-right: 0px;
+}
+.botNav{
+  outline: solid 1px green;
+  font-size: 13px;
+  background-color: #0CA38D;
+  padding: 0px;
+  ul{
+    /*padding-left: 5px;*/
+  }
+  li{
+    /*padding-right: 10px;*/
+  }
+  a{
+    color: #eee;
+    padding:30px 8px 0px;
+    font-family: 'Caudex', serif;
+  }
+  a:hover{
+    color: #26C3D7;
+  }
+}
+
+.botInfo{
+  outline: solid 1px blue;
+  background-color: #0CA38D;
+  p{
+    text-align: right;
+  }
+}
+.copyright{
+  outline: solid 1px yellow;
+  background-color: #0CA38D;
 }

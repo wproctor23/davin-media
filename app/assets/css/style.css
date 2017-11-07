@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto|Roboto+Condensed|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto|Roboto+Condensed|Roboto+Slab");
 .clear:before, .clear:after {
   content: ' ';
   display: table; }
@@ -14,7 +15,7 @@
   text-rendering: optimizeLegibility; }
 
 html {
-  font-size: 62.5%;
+  font-size: 18px;
   background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
 
 body {
@@ -24,7 +25,7 @@ body {
 
 body, html {
   min-height: 100vh;
-  overflow: hidden; }
+  overflow: auto; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -392,39 +393,168 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.topSoc {
-  outline: solid 1px yellow; }
+header {
+  background-color: #0CA38D; }
 
 .topLogo {
-  outline: solid 1px red; }
+  /*outline: solid 1px red;*/
+  /*padding: 1em;*/
+  padding-top: 15px;
+  background-color: #0CA38D; }
+  .topLogo img {
+    padding-left: 8px; }
 
 .topNav {
-  outline: solid 1px blue; }
+  outline: solid 1px blue;
+  background-color: #0CA38D; }
+  .topNav a {
+    color: #eee;
+    font-family: 'Caudex' , serif;
+    padding-top: 0px; }
+  .topNav a:hover {
+    color: #26C3D7; }
 
-.logo {
-  margin: -58px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  left: 50%; }
+.topSoc {
+  padding-top: 11px;
+  padding-right: 19px;
+  color: #26C3D7; }
+  .topSoc a {
+    font-size: 25px;
+    padding-left: 10px; }
+  .topSoc a:hover {
+    color: #26C3D7;
+    background-color: #0CA38D; }
+
+.splash {
+  width: 100%; }
+  .splash img {
+    width: 100%;
+    height: auto; }
 
 .nav ul {
   list-style: none; }
 
-.whyDM {
-  background-color: #000000; }
+body {
+  font-size: 0; }
 
 .container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  width: 75%;
+  max-width: 1350px;
+  border: solid red 1px; }
 
-@font-face {
+/*Index Page*/
+.whyDM {
+  background-color: #0CA38D;
+  color: #eee; }
+  .whyDM .whyDM-info {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-family: 'Crimson Text', serif; }
+
+.seeMoreLink {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: solid 1px;
+  /*background-color: #6E6E6E;*/
+  color: #eee;
+  padding: 10px; }
+
+.seeMoreLink:hover {
+  color: #6E6E6E; }
+
+.icon-container {
+  padding: 2.5em; }
+  .icon-container h2 {
+    color: #0fb1d4;
+    padding-top: 10px; }
+
+.servicesLink {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: solid 1px;
+  /*background-color: #6E6E6E;*/
+  color: #0fb1d4;
+  padding: 10px; }
+
+.servicesLink:hover {
+  color: #6E6E6E; }
+
+.icons {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.testimony {
+  background-color: #6E6E6E;
+  color: #eee;
+  font-family: 'Caudex' , serif; }
+  .testimony p {
+    font-family: 'Crimson Text' , serif; }
+
+.botLogo {
+  outline: solid 1px red;
+  background-color: #0CA38D;
+  padding-top: 30px;
+  padding-left: 30px; }
+  .botLogo img {
+    height: 50px;
+    width: auto;
+    padding-left: 10px; }
+
+#lastLink {
+  padding-right: 0px; }
+
+.botNav {
+  outline: solid 1px green;
+  font-size: 13px;
+  background-color: #0CA38D;
+  padding: 0px; }
+  .botNav ul {
+    /*padding-left: 5px;*/ }
+  .botNav li {
+    /*padding-right: 10px;*/ }
+  .botNav a {
+    color: #eee;
+    padding: 30px 8px 0px;
+    font-family: 'Caudex', serif; }
+  .botNav a:hover {
+    color: #26C3D7; }
+
+.botInfo {
+  outline: solid 1px blue;
+  background-color: #0CA38D; }
+  .botInfo p {
+    text-align: right; }
+
+.copyright {
+  outline: solid 1px yellow;
+  background-color: #0CA38D; }
+
+/*@font-face {
   font-family: 'Font-Name';
-  src: url("../fonts/font-name.eot");
-  src: url("../fonts/font-name.eot?#iefix") format("embedded-opentype"), url("../fonts/font-name.woff") format("woff"), url("../fonts/font-name.ttf") format("truetype"), url("../fonts/font-name.svg#font-name") format("svg");
+  src: url('../fonts/font-name.eot');
+  src: url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/font-name.woff') format('woff'),
+       url('../fonts/font-name.ttf') format('truetype'),
+       url('../fonts/font-name.svg#font-name') format('svg');
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}*/
+h1 {
+  font-family: 'Caudex', serif; }
+
+h2 h3 h4 {
+  font-family: 'Roboto', sans-serif; }
+
+p {
+  font-family: 'Crimson Text', serif; }
 
 ::-moz-selection {
   background: #333;

@@ -8,29 +8,28 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//ajax.googleapis.com" rel="dns-prefetch">
     <link href="assets/css/style.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
 
+    <script src="https://use.fontawesome.com/d2a0afc2f2.js"></script>
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
   <!-- header -->
       <div class="row">
-        <div class="col d-flex justify-content-end topSoc">
-          <a href="#">Social</a>
-          <a href="#">Social</a>
-          <a href="#">Social</a>
-        </div>
-      </div>
-      <div class="row">
         <div class="col topLogo">
-          <a href="index.html"><img src="" alt=""></a>
+          <a href="index.html"><img src="assets/img/dmLogo.png" alt="" width="150px" height="auto"></a>
         </div>
-        <div class="col topNav">
-          <ul class="nav justify-content-end">
+        <!-- nav -->
+        <div class="topNav d-flex flex-column justify-content-start">
+          <div class="d-flex justify-content-end topSoc">
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+            <a href="#"><i class="fa fa-youtube-square"></i></a>
+          </div>
+          <ul class="nav ">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home</a>
             </li>
@@ -48,84 +47,112 @@
             </li>
           </ul>
         </div>
+
       </div>
   <!-- End Header -->
   <!-- Splash Img -->
       <div class="row">
-        <div class="col">
-          <img src="" alt="">
+        <div class="splash">
+          <img src="assets/img/splash1.jpg" alt="" class="img-fluid">
         </div>
       </div>
     <!-- About Section -->
-      <div class="row text-center">
-        <div class="col whyDM">
+      <div class="row whyDM">
+        <div class="whyDM-info">
           <h1>Why Davin Media?</h1>
-          <p></p>
-          <a href="about.html">See More>></a>
+          <p class="text-center">Davin Media offers a variety of services that include getting
+          the best advertising rates for clients in radio, publishing and
+          other outlets; getting corporate sponsors for events across
+          the country including film festivals, cross promoting, and
+          marketing ideas that are out of the box thinking and on the
+          pulse of society interaction. They also have access to helping
+          clients and company get noticed in the right arenas through
+          public relations. The company has over thirty year’s experience
+          and relationships that has positioned them in the marketplace
+          as reliable, honest and trustworthy.</p>
+          <a class="seeMoreLink" href="about.html">See More>></a>
         </div>
       </div>
     <!-- Services -->
-      <div class="row">
-        <div class="col">
-          <img src="" alt="">
+      <div class="row icon-container">
+        <div class="col-sm-4 icons">
+          <img src="assets/img/film-reel.svg" alt="" width="100px" height="auto">
+          <h2>Film/TV</h2>
         </div>
-        <div class="col">
-          <img src="" alt="">
+        <div class="col-sm-4 icons">
+          <img src="assets/img/poster.svg" alt="" width="100px" height="auto">
+          <h2>Advertising</h2>
         </div>
-        <div class="col">
-          <img src="" alt="">
+        <div class="col-sm-4 icons">
+          <img src="assets/img/video-camera.svg" alt="" width="100px" height="auto">
+          <h2>Interviews</h2>
+        </div>
+        <div class="col-sm-12 text-center">
+          <a class="servicesLink" href="services.html">Services >></a>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <a href="services.html">Services >></a>
-        </div>
-      </div>
+<!--       </div> -->
     <!-- Testimonials -->
-      <div class="row">
-        <div class="col">
+      <div class="row testimony">
+        <div class="col-sm-12 text-center">
           <h1>Testimonials</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          test 1
+      <div class="row testimony">
+        <div class="col-sm-3">
+          <p>"This an example of a testimony. This is an example of some text."</p>
         </div>
-        <div class="col">
-          test 2
+        <div class="col-sm-3">
+          <p>"This an example of a testimony. This is an example of some text."</p>
         </div>
-        <div class="col">
-          test 3
+        <div class="col-sm-3">
+          <p>"This an example of a testimony. This is an example of some text."</p>
         </div>
-        <div class="col">
-          test 4
+        <div class="col-sm-3">
+          <p>"This an example of a testimony. This is an example of some text."</p>
         </div>
       </div>
     <!-- Footer -->
-      <div class="row">
-        <div class="col">
-          Logo
+    <footer>
+      <div class="row ">
+        <div class="col-sm-4 botLogo">
+          <img src="assets/img/dmLogo.png" width="100px" height="auto" alt="">
         </div>
-        <div class="col">
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="clients.html">Clients</a>
-            <a href="contact.html">Contact</a>
-          </nav>
+        <div class="col-sm-4 botNav">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clients.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="lastLink" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="col">
-          (310)123-4567
-          adavin@famehampton.com
-          <a href="#">soc</a>
-          <a href="#">soc</a>
-          <a href="#">soc</a>
+        <div class="col-sm-4 botInfo d-flex flex-column  align-items-end">
+          <p>
+            (310)123-4567
+            adavin@famehampton.com
+          </p>
+          <div>
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+            <a href="#"><i class="fa fa-youtube-square"></i></a>
+          </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row copyright justify-content-center">
         ©2017, Davin Media
       </div>
+    </footer>
     </div>
 
 

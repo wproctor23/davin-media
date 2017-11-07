@@ -1,12 +1,76 @@
-.main {
+@import url('https://fonts.googleapis.com/css?family=Caudex|Crimson+Text|Roboto|Roboto+Condensed|Roboto+Slab');
 
-}
-
-.whyDM{
-  background-color: #000000;
+body {
+  font-size: 0;
 }
 .container{
   display: flex;
   flex-direction: column;
+  width: 75%;
+  max-width:1350px;
+  border: solid red 1px;
 }
+/*Index Page*/
+.whyDM{
+  background-color: #0CA38D;
+  color: #eee;
+    .whyDM-info {
+      width: 800px;
+      text-align: center;
+      margin: auto;
+      padding: 2em;
+      font-size: 1em;
+      letter-spacing: 2px;
+      font-family: 'Crimson Text', serif;
+    }
+}
+.seeMoreLink{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: solid 1px;
+  /*background-color: #6E6E6E;*/
+  color: #eee;
+  padding: 10px;
+
+}
+.seeMoreLink:hover{
+  color: #6E6E6E;
+}
+
+.icon-container {
+  padding: 2.5em;
+
+  h2{
+    color:#0fb1d4;
+    padding-top: 10px;
+  }
+}
+.servicesLink{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: solid 1px;
+  /*background-color: #6E6E6E;*/
+  color: #0fb1d4;
+  padding: 10px;
+
+}
+.servicesLink:hover{
+  color: #6E6E6E;
+}
+
+.icons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.testimony{
+  background-color: #6E6E6E;
+  color: #eee;
+  font-family: 'Caudex' , serif;
+  p{
+    font-family: 'Crimson Text' , serif;
+  }
+}
+
+
+
 
