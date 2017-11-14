@@ -10,7 +10,7 @@ body {
   max-width:1350px;
   border: solid red 1px;
 }
-/*Index Page*/
+/*----------Index Page----------*/
 .whyDM{
   background-color: #0CA38D;
   color: #eee;
@@ -71,6 +71,49 @@ body {
   }
 }
 
+/*----------About Page----------*/
+.aboutDM{
+  /*background-color: #0CA38D;*/
+  color:#0fb1d4;
+  text-align: center;
+    .aboutDM-info {
+      width: 800px;
+      text-align: center;
+      margin: auto;
+      padding: 2em;
+      font-size: 1em;
+      letter-spacing: 2px;
+      font-family: 'Crimson Text', serif;
+    }
+}
+/*----------Services Page----------*/
+
+
+/*----------Client Page----------*/
+
+/*----------Contact Page----------*/
+  .contactTitle{
+    text-align:center;
+    color: #0fb1d4;
+    font-family: 'Crimson Text', serif;
+    margin: auto;
+    outline:solid red 1px;
+    padding-top: 10px;
+  }
+.col-sm-8.emailForm{
+  outline: solid 1px blue;
+  padding: 20px 90px 20px 50px;
+  label{
+    color: #0fb1d4;
+    font-family: 'Roboto', sans-serif;
+  }
+  input{
+    font-family: 'Roboto', sans-serif;
+  }
+  button{
+   margin-left: -15px;
+  }
+}
 
 
 

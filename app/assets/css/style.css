@@ -446,7 +446,7 @@ body {
   max-width: 1350px;
   border: solid red 1px; }
 
-/*Index Page*/
+/*----------Index Page----------*/
 .whyDM {
   background-color: #0CA38D;
   color: #eee; }
@@ -498,10 +498,49 @@ body {
   .testimony p {
     font-family: 'Crimson Text' , serif; }
 
+/*----------About Page----------*/
+.aboutDM {
+  /*background-color: #0CA38D;*/
+  color: #0fb1d4;
+  text-align: center; }
+  .aboutDM .aboutDM-info {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-family: 'Crimson Text', serif; }
+
+/*----------Services Page----------*/
+/*----------Client Page----------*/
+/*----------Contact Page----------*/
+.contactTitle {
+  text-align: center;
+  color: #0fb1d4;
+  font-family: 'Crimson Text', serif;
+  margin: auto;
+  outline: solid red 1px;
+  padding-top: 10px; }
+
+.col-sm-8.emailForm {
+  outline: solid 1px blue;
+  padding: 20px 90px 20px 50px; }
+  .col-sm-8.emailForm label {
+    color: #0fb1d4;
+    font-family: 'Roboto', sans-serif; }
+  .col-sm-8.emailForm input {
+    font-family: 'Roboto', sans-serif; }
+  .col-sm-8.emailForm button {
+    margin-left: -15px; }
+
+footer {
+  background-color: #0CA38D; }
+
 .botLogo {
-  outline: solid 1px red;
+  /*outline: solid 1px red;*/
   background-color: #0CA38D;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 30px; }
   .botLogo img {
     height: 50px;
@@ -512,7 +551,7 @@ body {
   padding-right: 0px; }
 
 .botNav {
-  outline: solid 1px green;
+  /*outline: solid 1px yellow;*/
   font-size: 13px;
   background-color: #0CA38D;
   padding: 0px; }
@@ -522,20 +561,45 @@ body {
     /*padding-right: 10px;*/ }
   .botNav a {
     color: #eee;
-    padding: 30px 8px 0px;
+    padding: 16px 8px 0px;
     font-family: 'Caudex', serif; }
   .botNav a:hover {
     color: #26C3D7; }
+  .botNav p {
+    color: #eee;
+    /*font-family:;*/
+    padding: 20px 90px 0px; }
 
 .botInfo {
-  outline: solid 1px blue;
-  background-color: #0CA38D; }
+  /*outline: solid 1px blue;*/
+  background-color: #0CA38D;
+  padding: 10px 20px 0px; }
   .botInfo p {
-    text-align: right; }
+    text-align: right;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    /*outline: solid 1px yellow;*/
+    margin-bottom: 0px; }
 
-.copyright {
-  outline: solid 1px yellow;
-  background-color: #0CA38D; }
+.botSocial {
+  padding: 0px 0px 0px;
+  /*outline: solid red 1px;*/
+  padding-left: 5px; }
+  .botSocial a {
+    color: #eee; }
+  .botSocial a:hover {
+    color: #26C3D7; }
+
+.designer {
+  /*outline: solid 1px blue;*/
+  color: #eee;
+  font-size: 10px;
+  padding-bottom: 10px; }
+
+.designer:hover {
+  text-decoration: none;
+  color: #26C3D7; }
 
 /*@font-face {
   font-family: 'Font-Name';

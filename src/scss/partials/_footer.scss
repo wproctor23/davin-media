@@ -1,7 +1,10 @@
-.botLogo{
-  outline: solid 1px red;
+footer{
   background-color: #0CA38D;
-  padding-top: 30px;
+}
+.botLogo{
+  /*outline: solid 1px red;*/
+  background-color: #0CA38D;
+  padding-top: 20px;
   padding-left: 30px;
   img{
     height:50px;
@@ -14,7 +17,7 @@
   padding-right: 0px;
 }
 .botNav{
-  outline: solid 1px green;
+  /*outline: solid 1px yellow;*/
   font-size: 13px;
   background-color: #0CA38D;
   padding: 0px;
@@ -26,22 +29,51 @@
   }
   a{
     color: #eee;
-    padding:30px 8px 0px;
+    padding:16px 8px 0px;
     font-family: 'Caudex', serif;
   }
   a:hover{
     color: #26C3D7;
   }
+  p{
+    color: #eee;
+    /*font-family:;*/
+    padding:20px 90px 0px;
+  }
 }
 
 .botInfo{
-  outline: solid 1px blue;
+  /*outline: solid 1px blue;*/
   background-color: #0CA38D;
+  padding: 10px 20px 0px;
+
   p{
     text-align: right;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    /*outline: solid 1px yellow;*/
+    margin-bottom: 0px;
   }
 }
-.copyright{
-  outline: solid 1px yellow;
-  background-color: #0CA38D;
+.botSocial{
+  padding:0px 0px 0px;
+  /*outline: solid red 1px;*/
+  padding-left: 5px;
+  a{
+    color: #eee;
+  }
+  a:hover{
+    color: #26C3D7;
+  }
+}
+.designer{
+  /*outline: solid 1px blue;*/
+  color: #eee;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.designer:hover{
+    text-decoration: none;
+    color: #26C3D7;
 }
