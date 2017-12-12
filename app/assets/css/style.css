@@ -444,7 +444,7 @@ body {
       flex-direction: column;
   width: 75%;
   max-width: 1350px;
-  border: solid red 1px; }
+  /*border: solid red 1px;*/ }
 
 /*----------Index Page----------*/
 .whyDM {
@@ -501,18 +501,68 @@ body {
 /*----------About Page----------*/
 .aboutDM {
   /*background-color: #0CA38D;*/
+  margin: 20px;
   color: #0fb1d4;
   text-align: center; }
+  .aboutDM h1 {
+    font-family: 'Crimson Text' , serif; }
   .aboutDM .aboutDM-info {
     width: 800px;
     text-align: center;
-    margin: auto;
-    padding: 2em;
+    margin: 15px auto;
+    padding: 20px 20px 0px 0px;
     font-size: 1em;
     letter-spacing: 2px;
     font-family: 'Crimson Text', serif; }
+  .aboutDM img {
+    /*outline: solid yellow 1px;*/
+    margin-left: 20px;
+    margin-top: 20px; }
+  .aboutDM p {
+    /*outline: solid green 1px;/*/
+    padding-right: 205px;
+    margin-top: 10px;
+    /*width: 500px;*/ }
 
 /*----------Services Page----------*/
+.servicesTitle {
+  text-align: center;
+  color: #0fb1d4;
+  font-family: 'Crimson Text', serif;
+  margin: auto;
+  /*outline:solid red 1px;*/
+  padding-top: 30px; }
+
+.topTwo {
+  margin: 0px auto;
+  /*outline: solid yellow 1px;*/
+  text-align: center;
+  margin-bottom: 15px; }
+  .topTwo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #0fb1d4;
+    padding-top: 10px; }
+  .topTwo .film {
+    /*outline: solid 1px orange;*/
+    padding-left: 170px; }
+  .topTwo .events {
+    /*outline: solid 1px pink;*/
+    padding-right: 170px; }
+
+.botThree {
+  /*outline: solid 1px green;*/
+  text-align: center;
+  margin-bottom: 15px; }
+  .botThree h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #0fb1d4;
+    padding-top: 10px; }
+
+.service {
+  /*outline: solid 1px pink;*/ }
+
 /*----------Client Page----------*/
 /*----------Contact Page----------*/
 .contactTitle {
@@ -520,19 +570,32 @@ body {
   color: #0fb1d4;
   font-family: 'Crimson Text', serif;
   margin: auto;
-  outline: solid red 1px;
-  padding-top: 10px; }
+  /*outline:solid red 1px;*/
+  padding-top: 30px; }
 
 .col-sm-8.emailForm {
-  outline: solid 1px blue;
-  padding: 20px 90px 20px 50px; }
+  /*outline: solid 1px blue;*/
+  margin-top: 30px;
+  padding: 20px 90px 20px 50px;
+  font-family: 'Roboto', sans-serif; }
   .col-sm-8.emailForm label {
-    color: #0fb1d4;
-    font-family: 'Roboto', sans-serif; }
+    color: #0fb1d4; }
   .col-sm-8.emailForm input {
-    font-family: 'Roboto', sans-serif; }
+    color: #6E6E6E; }
   .col-sm-8.emailForm button {
-    margin-left: -15px; }
+    margin-left: -15px;
+    background-color: #0fb1d4;
+    border: none; }
+  .col-sm-8.emailForm button:hover {
+    background-color: #6E6E6E; }
+
+.col-sm-4.contactInfo {
+  font-family: 'Roboto', sans-serif;
+  /*outline: solid 1px green;*/
+  margin: 50px 0px 0px 0px;
+  padding: 0px 30px 0px 0px;
+  text-align: right;
+  color: #0fb1d4; }
 
 footer {
   background-color: #0CA38D; }
@@ -561,7 +624,7 @@ footer {
     /*padding-right: 10px;*/ }
   .botNav a {
     color: #eee;
-    padding: 16px 8px 0px;
+    padding: 16px 20px 0px;
     font-family: 'Caudex', serif; }
   .botNav a:hover {
     color: #26C3D7; }
